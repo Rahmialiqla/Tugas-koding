@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="end">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+        
+    </head>
+    <body>
+              <title>Form pemesanan pizza enak</title>
+       <fieldset>
+           <legend>
+              <h3>Pizza enak sesuai dengan pesanan anda</h3>
+           </legend>
+           <p>Pizza kami tersedia untuk pemesanan online</p>
+           <p>Pizza yang kami buat pasti bikin anda ketagihan</p>
+           
+           <form action="http://blackgoosebistro.com/pizza.php" method="post">
+              
+              <p>Informasi anda : </p> 
+              <label for="nama">Nama</label>
+              <input type="text" id="nama">
+              <br>
+              <br>
+              <label for="alamat">Alamat</label>
+              <input type="text" id="alamat">
+              <br>
+              <br>
+              <label for="nomor telepon">Nomor Telepon</label>
+              <input type="number" id="nomor telepon">
+              <br>
+              <br>
+              <label for="email">Email</label>
+              <input type="email" id="email">
+              <br>
+              <br>
+              
+              <label for="catatan">Instruksi pengiriman : </label>
+              <textarea id="catatan" rows="2" cols="50"></textarea>
+              <br>
+              <br>
+              
+              <h3>Rancang pizza yang anda inginkan</h3>
+              <p>Crust (pilih salah satu)</p>
+              <input type="radio" id="multi grain" name="crust">
+              <label for="multigrain">multigrain</label>
+              <br>
+              <input type="radio" id="crowncrust" name="crust" >
+              <label for="crowncrust">crowncrust</label>
+              <br>
+              <input type="radio" id="cheese-stuffed" name="crust">
+              <label for="cheese-stuffed">cheese-stuffed</label>
+              <br>
+              <input type="radio" id="pan pizza" name="crust">
+              <label for="panpizza">pan pizza</label>
+              <br>
+              <input type="radio" id="chees bites" name="crust">
+              <label for="cheesbites">chees bites</label>
+              <br>
+              <input type="radio" id="glutenfree" name="glutenfree">
+              <label for="glutenfree">Gluten-free</label>
+              <br>
+              <p>Ukuran Crust : </p>
+              
+              <br>
+              <input type="radio" id="personal" name="ukurancrust">
+              <label for="personal">personal</label>
+              <br>
+              <input type="radio" id="medium" name="ukurancrust">
+              <label for="medium">medium</label>
+              <br>
+              <input type="radio" id="large" name="ukurancrust">
+              <label for="large">large</label>
+              
+              
+              <p>Topping (pilih sebanyak yang anda mau)</p>
+              <br>
+              <input type="checkbox" id="bawang" name="toping1">
+              <label for="bawang">bawang</label>
+              <br>
+              <input type="checkbox" id="saus pedas" name="toping2">
+              <label for="sauspedas">saus pedas</label>
+              <br>
+              <input type="checkbox" id="mozarellacheese" name="toping3">
+              <label for="mozarellacheese">mozarella cheese</label>
+              <br>
+              <input type="checkbox" id="daging" name="toping4">
+              <label for="daging">daging</label>
+              <br>
+              <input type="checkbox" id="paprika" name="toping5">
+              <label for="paprika">paprika</label>
+              <br>
+              <input type="checkbox" id="sosis" name="toping6">
+              <label for="sosis">sosis</label>
+              <br>
+              <input type="checkbox" id="jamur" name="toping7">
+              <label for="jamur">jamur</label>
+              <br>
+              <input type="checkbox" id="jagung" name="toping8">
+              <label for="jagung">jagung</label>
+              
+              <p>Number</p>
+              <p>Berapa banyak pizza yang ingin anda pesan : </p>
+              <input type="number">
+              <br>
+              <br>
+              <input type="submit" value="siapkan pizza">
+              <input type="reset">
+              
+           </form>
+       </fieldset> 
+    </body>
+</html>
